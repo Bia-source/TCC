@@ -16,18 +16,14 @@ import {
   StatusBar,
 } from 'react-native';
 
-
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={styles.scrollView}>
-       
-       <Text style={styles.title}> TCC</Text>
-       <Text style={styles.title}> TCC</Text>
-       <Text style={styles.title}> TCC</Text>
-       <Text style={styles.title}> TCC</Text>
-       
+        <Text style={styles.title}> TCC</Text>
+        <Text style={styles.title}> TCC</Text>
+        <Text style={styles.title}> TCC</Text>
       </SafeAreaView>
     </>
   );
@@ -38,15 +34,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#000000',
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
-  title:{
-      color:'#836FFF',
-      fontSize: 20
-
-  }
-  
-  
+  title: {
+    color: '#836FFF',
+    fontSize: 20,
+  },
 });
 
 export default App;
